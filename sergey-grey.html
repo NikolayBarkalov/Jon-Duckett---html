@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+            Опросник мувиков
+        </title>
+    </head>
+    <body>
+        <form action="localhost" method="post">
+            <fieldset><legend>Поиск:</legend>
+            <input type="search" name="poisk" placeholder="Найти пидораса">
+        </fieldset>
+            <p></p>
+            <fieldset><legend>Данные пользователя</legend>
+                <p>Имя: </p>
+            <input type="name" name="UserName" placeholder="Сергей">
+                <p>Email: </p>
+            <input type="email" name="email" placeholder="muvimeiker2000@vrot.com">
+                <p>Придумать пароль:</p>
+            <input type="password" name="password" placeholder="Думать сложно">
+        </fieldset>
+        <p></p>
+        <fieldset><legend>Ваше мнение: </legend>
+            Как вы думаете, кто такие мувимейкеры?
+        <select name="selectpidorov">
+            <option value="pituh">Голубая лагуна</option>
+            <option value="otvet2">Просто голубые</option>
+            <option value="NewOtvet">Сергей Зверев</option>
+            <option value="otvet3">Анимешники</option>
+            <option value="otvet4">Мувимейкинг - хуже выше перечисленных вариантов</option>
+        </select>
+        <p>Быстрый опрос на вакцинацию от <del>Пидарства</del> <ins>мувимейкинга?</ins></p>
+            <label>
+            <input type="radio" name="r1" value="yes">
+                Да
+            <input type="radio" name="r1" value="no">
+                нет
+            <input type="radio" name="r1" value="udalay">
+                Уже удаляю КС
+        </label>
+    </fieldset>
+    <fieldset><legend>Напишите мне в палату</legend>
+        <textarea cols="100" rows="20" >Палaта №17, Николаю </textarea>
+        <br />
+        <input type="checkbox">Я хочу Подписаться на это дерьмо, хочу получать по: 
+        <input type="date" name="dataspama">
+        <br />
+        <input type="submit" value="Отправить отзыв в палату ">
+    </fieldset>
+        </form>
+    </body>
+</html>
